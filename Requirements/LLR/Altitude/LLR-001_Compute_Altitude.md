@@ -12,8 +12,8 @@ children: [None]
 ## Statement
 
 The Air Data Computer shall compute **AirDataComputer:altitude** per the following: 
-- $h = 44330 * (1-(\frac{P_{static}}{P_0})^{0.19026})$, where
+- $h = 145366.45 * (1-(\frac{P_{static}}{P_0})^{0.19026})$, where
   - $P_{static}$ is equal to **PitotStaticInputSignals:staticPressure**.
-  -   $P_{0}$ is equal to Sea-level standard atmospheric reference pressure (29.92 inHg or 1013.25 hPa).
+  -   $P_{0}$ is equal to Sea-level standard atmospheric reference pressure (14.6959 Psi).
   -   h is equal to altitude in feet.
 
