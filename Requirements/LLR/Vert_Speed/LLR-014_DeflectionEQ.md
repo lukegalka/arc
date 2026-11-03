@@ -11,5 +11,5 @@ children: []              # L1: [L2-###, LLR-###] | L2: [LLR-###] | LLR: none
 
 ## Statement
 
-During unaccelerated steady-state climb or descent ($\frac{dh}{dt} = \text{constant}$), the differential pressure driving the indicator display shall be directly proportional to vertical speed ($w$, in $\text{ft/s}$):
+During steady-state climb or descent ($\frac{dh}{dt} = \text{constant}$), the differential pressure driving the display shall be directly proportional to vertical speed ($w$, in $\text{ft/s}$):
 $$\Delta p_{\text{steady}} = \tau \cdot \rho(h) \cdot g \cdot w$$
