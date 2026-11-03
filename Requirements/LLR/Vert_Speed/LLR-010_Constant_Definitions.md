@@ -1,13 +1,13 @@
 ---
-id: L2-001                # L1-### | L2-### | LLR-###
+id: LLR-010                # L1-### | L2-### | LLR-###
 title: Constant Definitions
 status: draft             # draft | review | approved | implemented | verified | deprecated
 owner: Luke Galka
-parents: []               # L1: none | L2: [L1-###] | LLR: [L2-###, L1-###]
-children: []              # L1: [L2-###, LLR-###] | L2: [LLR-###] | LLR: none
+parents: [None]               # L1: none | L2: [L1-###] | LLR: [L2-###, L1-###]
+children: [None]              # L1: [L2-###, LLR-###] | L2: [LLR-###] | LLR: none
 ---
 
-# L2-001: Constant Definitions
+# LLR-010: Constant Definitions
 
 ## Statement
 Specific gas constant for air (R) shall be defined as 1,716 ft*lbf/slug*R˚.
