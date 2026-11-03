@@ -3,11 +3,11 @@ id: LLR-014             # L1-### | L2-### | LLR-###
 title: Deflection EQ
 status: draft             # draft | review | approved | implemented | verified | deprecated
 owner: Luke Galka
-parents: []               # L1: none | L2: [L1-###] | LLR: [L2-###, L1-###]
-children: []              # L1: [L2-###, LLR-###] | L2: [LLR-###] | LLR: none
+parents: [LLR-010]               # L1: none | L2: [L1-###] | LLR: [L2-###, L1-###]
+children: [None]              # L1: [L2-###, LLR-###] | L2: [LLR-###] | LLR: none
 ---
 
-# LLR-104: Deflection
+# LLR-014: Deflection
 
 ## Statement
 
