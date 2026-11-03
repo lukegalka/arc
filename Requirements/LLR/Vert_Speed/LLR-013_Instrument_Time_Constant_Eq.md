@@ -1,13 +1,13 @@
 ---
-id: L2-013                # L1-### | L2-### | LLR-###
+id: LLR-013             # L1-### | L2-### | LLR-###
 title: Instrument Time Constant Equation
 status: draft             # draft | review | approved | implemented | verified | deprecated
 owner: Luke Galka
-parents: []               # L1: none | L2: [L1-###] | LLR: [L2-###, L1-###]
-children: []              # L1: [L2-###, LLR-###] | L2: [LLR-###] | LLR: none
+parents: [LLR-010]               # L1: none | L2: [L1-###] | LLR: [L2-###, L1-###]
+children: [None]              # L1: [L2-###, LLR-###] | L2: [LLR-###] | LLR: none
 ---
 
-# L2-013: Instrument Time Constant Equation
+# LLR-013: Instrument Time Constant Equation
 
 ## Statement
 The pneumatic time constant ($\tau$, in seconds) characterizing the instrument's lag filter shall be defined as:
