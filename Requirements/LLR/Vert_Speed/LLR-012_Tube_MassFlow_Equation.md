@@ -1,13 +1,13 @@
 ---
-id: L2-012                # L1-### | L2-### | LLR-###
+id: LLR-012                # L1-### | L2-### | LLR-###
 title: Tube Mass Flow Equation
 status: draft             # draft | review | approved | implemented | verified | deprecated
 owner: Luke Galka
-parents: []               # L1: none | L2: [L1-###] | LLR: [L2-###, L1-###]
-children: []              # L1: [L2-###, LLR-###] | L2: [LLR-###] | LLR: none
+parents: [LLR-010]               # L1: none | L2: [L1-###] | LLR: [L2-###, L1-###]
+children: [None]              # L1: [L2-###, LLR-###] | L2: [LLR-###] | LLR: none
 ---
 
-# L2-012: Tube Mass Flow Equation
+# LLR-012: Tube Mass Flow Equation
 
 ## Statement
 The mass flow rate ($\dot{m}$, in $\text{slugs/s}$) through the instrument's calibrated metering restriction shall adhere to the linear orifice flow relation:
